@@ -1,5 +1,5 @@
 # resume-parser
 
 ## description
-A parser that extract resume in pdf from only into texts and then match the best candidate by the keywords provided. 
+A parser that extracts resume - in pdf fornat only - into texts and then matches the top candidates according to the keywords provided. 
 
