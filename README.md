@@ -1,9 +1,8 @@
 # resume-parser
 
 ## description
-A parser that extracts resume - in pdf fornat only - into texts and then matches the top candidates according to the keywords provided. 
+A parser that extracts resume - in pdf fornat only - into texts and then matches words given the search term
 
- 
  
 ## test cases 
 ### to test how our algorithm works we/recruiter can rate the accuracy by judging what resumes it moves forward and what resumes it drops. Tweak the algorithm to improve the accuracy rate

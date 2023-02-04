@@ -22,12 +22,13 @@ uploadButton.addEventListener("click", () => {
 
 searchTerm.addEventListener('change', () => {
     let term = searchTerm.value;
-    let words = resume_text.split(/\s+/g); // split on all whitespaces 
+    let words = resume_text.split(/[\s:]+/g); // split on all whitespaces 
     let matched_words = "";
     for(let i = 0; i < words.length; i++){
         if(words[i].toLowerCase().includes(term.toLowerCase())) {
             matched_words += words[i] + "\n";
         }
     }
+    console.log(words);
     resultText.value = "Matching words: \n" + matched_words;
 });
