@@ -1,0 +1,17 @@
+#search-result {
+    width: 300px;
+    height: 225px;
+    color: darkblue;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-term {
+    width: 42vw;
+    height: 20px;
+    padding-left: 10px;
+}
