@@ -1,6 +1,7 @@
 #search-result {
     width: 300px;
     height: 225px;
+    padding-left: 10px;
     color: darkblue;
 }
 
@@ -10,8 +11,12 @@ body {
     justify-content: center;
 }
 
+#upload:hover {
+    background-color: navy;
+}
+
 #search-term {
-    width: 42vw;
-    height: 20px;
+    width: 300px;
+    height: 22px;
     padding-left: 10px;
 }
